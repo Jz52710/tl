@@ -9,7 +9,7 @@ window.onload = function () {
     }
     //释放鼠标
     box.onmouseup = function () {
-        document.onmousemove = document.onmouseup = null;
+        document.onmousemove = box.onmouseup = null;
     }
 }
 }
